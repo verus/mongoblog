@@ -4,6 +4,7 @@ rescue LoadError
   require 'rubygems'
   require 'bundler'
   Bundler.setup
+	$LOAD_PATH << '.'
 end
 
 Bundler.require :default

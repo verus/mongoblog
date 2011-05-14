@@ -1,39 +1,35 @@
---- 
-dependencies: 
-  mongo_mapper: 
-    group: 
-    - :default
-    version: ">= 0"
-  haml: 
-    group: 
-    - :default
-    version: ">= 0"
-  mongo_ext: 
-    group: 
-    - :default
-    version: ">= 0"
-  sinatra: 
-    group: 
-    - :default
-    version: ">= 0"
-specs: 
-- activesupport: 
-    version: 2.3.5
-- rack: 
-    version: 1.1.0
-- sinatra: 
-    version: 0.9.4
-- jnunemaker-validatable: 
-    version: 1.8.1
-- mongo_ext: 
-    version: 0.18.3
-- haml: 
-    version: 2.2.20
-- mongo: 
-    version: 0.18.3
-- mongo_mapper: 
-    version: 0.7.0
-hash: f496c79740a343b35a5f9d46aebf00146108ab9a
-sources: 
-- Rubygems: 
-    uri: http://gemcutter.org
+GEM
+  remote: http://rubygems.org/
+  specs:
+    activemodel (3.0.7)
+      activesupport (= 3.0.7)
+      builder (~> 2.1.2)
+      i18n (~> 0.5.0)
+    activesupport (3.0.7)
+    bson (1.3.1)
+    builder (2.1.2)
+    haml (3.1.1)
+    i18n (0.5.0)
+    mongo (1.3.1)
+      bson (>= 1.3.1)
+    mongo_ext (0.19.3)
+    mongo_mapper (0.9.0)
+      activemodel (~> 3.0.0)
+      activesupport (~> 3.0.0)
+      plucky (~> 0.3.6)
+    plucky (0.3.8)
+      mongo (~> 1.3)
+    rack (1.2.2)
+    sinatra (1.2.6)
+      rack (~> 1.1)
+      tilt (< 2.0, >= 1.2.2)
+    tilt (1.3)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  haml
+  mongo_ext
+  mongo_mapper
+  sinatra
